@@ -20,7 +20,7 @@ This project aims to solve this problem by providing a business intelligence sol
 
 The dataset used for this analysis is the **"Telco Customer Churn"** dataset, publicly available on Kaggle. It contains customer account information, demographic data, and services subscribed to.
 
-- **Source:** [Kaggle - Telco Customer Churn](https://www.kaggle.com/datasets/blastchar/telco-customer-churn)
+**Source:** [Kaggle - Telco Customer Churn](https://www.kaggle.com/datasets/blastchar/telco-customer-churn)
 
 
 ## 📈 Key Insights
