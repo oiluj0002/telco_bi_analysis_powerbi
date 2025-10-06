@@ -24,3 +24,15 @@ The dataset used for this analysis is the **"Telco Customer Churn"** dataset, pu
 - **Source:** [Kaggle - Telco Customer Churn](https://www.kaggle.com/datasets/blastchar/telco-customer-churn)
 
 ---
+
+## 📈 Key Insights
+
+The analysis revealed several critical factors that strongly correlate with customer churn:
+
+1.  **Contract Type is the #1 Churn Predictor:** Customers on **Month-to-Month contracts have a churn rate of 42.7%**, which is dramatically higher than those on One-Year (11.3%) or Two-Year (2.8%) contracts. This flexibility comes at the cost of loyalty.
+
+2.  **New Customers are Highly Vulnerable:** The churn rate is highest among customers with a tenure of less than 12 months, suggesting potential issues in the initial **onboarding process** and the customer's ability to realize the service's full value early on.
+
+3.  **Internet Service Matters:** Customers with **Fiber Optic internet service exhibit a significantly higher churn rate (41.9%)** compared to those with DSL (19%). This may indicate service stability issues, pricing dissatisfaction, or stronger competition in areas with fiber coverage.
+
+4.  **Billing Methods Signal Risk:** Customers using **Paperless Billing** and paying via **Electronic Check** are more likely to churn. This could signal friction in the payment process or a less "sticky," more transactional customer relationship.
