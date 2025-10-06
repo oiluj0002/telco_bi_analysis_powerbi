@@ -4,7 +4,6 @@ This repository contains the Power BI project file and documentation for a churn
 
 ![Dashboard GIF Preview](Dashboard_Preview_v2.gif)
 
----
 
 ## 🎯 The Business Problem
 
@@ -23,7 +22,6 @@ The dataset used for this analysis is the **"Telco Customer Churn"** dataset, pu
 
 - **Source:** [Kaggle - Telco Customer Churn](https://www.kaggle.com/datasets/blastchar/telco-customer-churn)
 
----
 
 ## 📈 Key Insights
 
