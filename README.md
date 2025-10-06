@@ -2,7 +2,7 @@
 
 This repository contains the Power BI project file and documentation for a churn analysis dashboard designed to help a telecommunications company understand and reduce customer attrition.
 
-![Dashboard GIF Preview](Dashboard_Preview.gif)
+![Dashboard GIF Preview](Dashboard_Preview_v2.gif)
 
 ---
 
