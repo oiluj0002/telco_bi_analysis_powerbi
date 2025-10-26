@@ -1,0 +1,34 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.2.0/schema.json",
+  "name": "de90e311b99619eec2c8",
+  "position": {
+    "x": 109.85826771653544,
+    "y": 76.5984251968504,
+    "z": 0,
+    "height": 565.41732283464569,
+    "width": 566.42519685039372,
+    "tabOrder": 2000
+  },
+  "visual": {
+    "visualType": "image",
+    "objects": {
+      "general": [
+        {
+          "properties": {
+            "imageUrl": {
+              "expr": {
+                "ResourcePackageItem": {
+                  "PackageName": "RegisteredResources",
+                  "PackageType": 1,
+                  "ItemName": "Gemini_Generated_Image_4esqai43217760805266622.png"
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    "drillFilterOtherVisuals": true
+  },
+  "howCreated": "InsertVisualButton"
+}

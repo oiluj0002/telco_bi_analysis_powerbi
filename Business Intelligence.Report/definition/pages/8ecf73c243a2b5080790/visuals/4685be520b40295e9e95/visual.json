@@ -1,0 +1,38 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.2.0/schema.json",
+  "name": "4685be520b40295e9e95",
+  "position": {
+    "x": 220.68965517241378,
+    "y": 586.4039408866995,
+    "z": 2001,
+    "height": 55.487684729064043,
+    "width": 344.27586206896552,
+    "tabOrder": 2001
+  },
+  "visual": {
+    "visualType": "textbox",
+    "objects": {
+      "general": [
+        {
+          "properties": {
+            "paragraphs": [
+              {
+                "textRuns": [
+                  {
+                    "value": "BUSINESS INTELLIGENCE",
+                    "textStyle": {
+                      "fontFamily": "Segoe (Bold)",
+                      "fontSize": "20pt"
+                    }
+                  }
+                ],
+                "horizontalTextAlignment": "center"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "drillFilterOtherVisuals": true
+  }
+}

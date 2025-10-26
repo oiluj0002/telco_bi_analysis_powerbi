@@ -1,0 +1,4583 @@
+cultureInfo en-GB
+
+	linguisticMetadata =
+			{
+			  "Version": "4.1.0",
+			  "Language": "en-US",
+			  "Entities": {
+			    "telco_customer_churn": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "telco_customer_churn"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "telco customer churn": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "telco_customer_churn": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "customer churn": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "telco client churn": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "telco consumer churn": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "telco user churn": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "telco buyer churn": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "telco patron churn": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "telco purchaser churn": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "telco shopper churn": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "client churn": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "consumer churn": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "user churn": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        }
+			      ]
+			    },
+			    "telco_customer_churn.customer_ID": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "telco_customer_churn",
+			          "ConceptualProperty": "customerID"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "customer ID": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "customerID": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "customer": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "customer identification": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "customer identity": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "customer identifier": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "client": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "consumer": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "user": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "buyer": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "patron": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "purchaser": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "shopper": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        }
+			      ]
+			    },
+			    "telco_customer_churn.gender": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "telco_customer_churn",
+			          "ConceptualProperty": "gender"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "gender": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "sexuality": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "sex": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        }
+			      ]
+			    },
+			    "telco_customer_churn.senior_citizen": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "telco_customer_churn",
+			          "ConceptualProperty": "SeniorCitizen"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "senior citizen": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "SeniorCitizen": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "citizen": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "senior inhabitant": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "senior voter": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "inhabitant": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "voter": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "senior resident": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "senior national": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "senior native": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "senior civilian": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "resident": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "national": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        }
+			      ]
+			    },
+			    "telco_customer_churn.partner": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "telco_customer_churn",
+			          "ConceptualProperty": "Partner"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "partner": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "wife": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "lover": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "spouse": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "companion": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "husband": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "mate": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "colleague": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        },
+			        {
+			          "cohort": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        },
+			        {
+			          "collaborator": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        },
+			        {
+			          "coworker": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        }
+			      ]
+			    },
+			    "telco_customer_churn.dependent": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "telco_customer_churn",
+			          "ConceptualProperty": "Dependents"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "dependent": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "telco_customer_churn.tenure": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "telco_customer_churn",
+			          "ConceptualProperty": "tenure"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "tenure": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "tenancy": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "occupancy": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "occupation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "freehold": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "lease": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "duration": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        },
+			        {
+			          "term": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.452
+			          }
+			        },
+			        {
+			          "span": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.452
+			          }
+			        },
+			        {
+			          "period": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.452
+			          }
+			        },
+			        {
+			          "stretch": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.452
+			          }
+			        }
+			      ]
+			    },
+			    "telco_customer_churn.phone_service": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "telco_customer_churn",
+			          "ConceptualProperty": "PhoneService"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "phone service": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "PhoneService": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "service": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "phone maintenance": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "phone examination": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "phone svc": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "maintenance": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "examination": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "svc": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "phone package": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "phone repair": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "phone benefit": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "phone servicing": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        }
+			      ]
+			    },
+			    "telco_customer_churn.multiple_line": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "telco_customer_churn",
+			          "ConceptualProperty": "MultipleLines"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "multiple line": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "MultipleLines": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "multiple streak": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "multiple stroke": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "multiple stripe": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "multiple contour": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "multiple mark": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "multiple connection": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.475
+			          }
+			        },
+			        {
+			          "multiple link": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.461
+			          }
+			        },
+			        {
+			          "multiple route": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.461
+			          }
+			        },
+			        {
+			          "multiple track": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.461
+			          }
+			        },
+			        {
+			          "multiple course": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.461
+			          }
+			        }
+			      ]
+			    },
+			    "telco_customer_churn.internet_service": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "telco_customer_churn",
+			          "ConceptualProperty": "InternetService"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "internet service": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "InternetService": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "service": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "internet maintenance": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "internet examination": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "internet svc": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "maintenance": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "examination": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "svc": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "internet package": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "internet repair": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "internet benefit": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "internet servicing": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        }
+			      ]
+			    },
+			    "telco_customer_churn.online_security": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "telco_customer_churn",
+			          "ConceptualProperty": "OnlineSecurity"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "online security": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "OnlineSecurity": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "security": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "online sanctuary": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "sanctuary": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "online safety": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "online refuge": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "online haven": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "online safekeeping": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "online retreat": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "safety": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "refuge": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "haven": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        }
+			      ]
+			    },
+			    "telco_customer_churn.online_backup": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "telco_customer_churn",
+			          "ConceptualProperty": "OnlineBackup"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "online backup": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "OnlineBackup": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "backup": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "online holdup": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "online stoppage": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "online tailback": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "holdup": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "stoppage": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "tailback": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "online gridlock": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "online snarl": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "online tie-up": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "gridlock": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        }
+			      ]
+			    },
+			    "telco_customer_churn.device_protection": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "telco_customer_churn",
+			          "ConceptualProperty": "DeviceProtection"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "device protection": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "DeviceProtection": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "protection": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "device fortification": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "device security": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "fortification": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "device defense": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "device guard": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "device shield": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "device safety": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "device shelter": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "device safeguard": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "device armor": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        }
+			      ]
+			    },
+			    "telco_customer_churn.tech_support": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "telco_customer_churn",
+			          "ConceptualProperty": "TechSupport"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "tech support": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "TechSupport": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "support": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "tech assistance": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "tech cooperation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "tech maintenance": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "tech sustenance": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "tech validation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "tech verification": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "assistance": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "cooperation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "maintenance": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "sustenance": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        }
+			      ]
+			    },
+			    "telco_customer_churn.streaming_TV": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "telco_customer_churn",
+			          "ConceptualProperty": "StreamingTV"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "streaming TV": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "StreamingTV": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "TV": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        }
+			      ]
+			    },
+			    "telco_customer_churn.streaming_movie": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "telco_customer_churn",
+			          "ConceptualProperty": "StreamingMovies"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "streaming movie": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "StreamingMovies": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "movie": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "streaming show": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "streaming flick": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "streaming picture": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "streaming film": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "flick": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "picture": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "film": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        }
+			      ]
+			    },
+			    "telco_customer_churn.contract": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "telco_customer_churn",
+			          "ConceptualProperty": "Contract"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "contract": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "agreement": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "pact": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "convention": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "treaty": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "bond": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "indenture": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "deal": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        }
+			      ]
+			    },
+			    "telco_customer_churn.paperless_billing": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "telco_customer_churn",
+			          "ConceptualProperty": "PaperlessBilling"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "paperless billing": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "PaperlessBilling": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "billing": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        }
+			      ]
+			    },
+			    "telco_customer_churn.payment_method": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "telco_customer_churn",
+			          "ConceptualProperty": "PaymentMethod"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "payment method": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "PaymentMethod": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "method": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "payment technique": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "payment system": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "payment manner": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "payment mode": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "technique": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "system": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "manner": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "mode": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "payment way": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "payment process": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        }
+			      ]
+			    },
+			    "telco_customer_churn.monthly_charge": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "telco_customer_churn",
+			          "ConceptualProperty": "MonthlyCharges"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "monthly charge": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "MonthlyCharges": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "charge": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "monthly custody": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "monthly responsibility": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "monthly duty": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "custody": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "responsibility": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "duty": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "monthly care": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "monthly control": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "monthly trust": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "monthly burden": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        }
+			      ]
+			    },
+			    "telco_customer_churn.total_charge": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "telco_customer_churn",
+			          "ConceptualProperty": "TotalCharges"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "total charge": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "TotalCharges": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "charge": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "aggregate charge": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "overall charge": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "total custody": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "total responsibility": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "total duty": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "custody": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "responsibility": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "duty": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "total care": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "total control": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        }
+			      ]
+			    },
+			    "telco_customer_churn.churn": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "telco_customer_churn",
+			          "ConceptualProperty": "Churn"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "churn": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "telco_customer_churn.total_customers": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "telco_customer_churn",
+			          "ConceptualProperty": "TotalCustomers"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "total customers": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "TotalCustomers": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "customers": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "aggregate customer": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "overall customer": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "total clientele": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "total patron": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "total client": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "total consumer": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "total punter": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "clientele": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "patron": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "client": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        }
+			      ]
+			    },
+			    "telco_customer_churn.average_tenure": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "telco_customer_churn",
+			          "ConceptualProperty": "AverageTenure"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "average tenure": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "AverageTenure": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "average tenancy": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "average occupancy": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "average occupation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "average freehold": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "average lease": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "average contract": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "average duration": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.475
+			          }
+			        },
+			        {
+			          "average term": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.461
+			          }
+			        },
+			        {
+			          "average span": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.461
+			          }
+			        },
+			        {
+			          "average period": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.461
+			          }
+			        },
+			        {
+			          "Average Tenure (in months)": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "telco_customer_churn.total_charges_sum": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "telco_customer_churn",
+			          "ConceptualProperty": "TotalChargesSum"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "total charges sum": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "TotalChargesSum": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "charges sum": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "total charge summation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "total charge aggregation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "charge summation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "charge aggregation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "total charge total": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        },
+			        {
+			          "total charge aggregate": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        },
+			        {
+			          "total charge amount": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        },
+			        {
+			          "charge total": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "charge aggregate": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "charge amount": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "Total Charges": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "telco_customer_churn.average_monthly_charges": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "telco_customer_churn",
+			          "ConceptualProperty": "AverageMonthlyCharges"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "average monthly charges": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "AverageMonthlyCharges": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "charges": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "monthly charges": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "average monthly custody": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "average monthly responsibility": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "average monthly duty": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "monthly custody": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "monthly responsibility": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "monthly duty": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "average monthly care": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "average monthly control": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "average monthly trust": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "average monthly burden": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "Average Monthly Charge": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "telco_customer_churn.active_customers": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "telco_customer_churn",
+			          "ConceptualProperty": "ActiveCustomers"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "active customers": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "ActiveCustomers": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "customers": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "active clientele": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "active patron": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "active client": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "active consumer": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "active punter": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "clientele": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "patron": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "client": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "consumer": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "punter": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        }
+			      ]
+			    },
+			    "telco_customer_churn.churn_customers": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "telco_customer_churn",
+			          "ConceptualProperty": "ChurnCustomers"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "churn customers": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "ChurnCustomers": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "customers": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "churn clientele": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "churn patron": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "churn client": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "churn consumer": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "churn punter": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "clientele": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "patron": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "client": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "consumer": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "punter": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        }
+			      ]
+			    },
+			    "telco_customer_churn.total_MMR": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "telco_customer_churn",
+			          "ConceptualProperty": "TotalMMR"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "total MMR": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "TotalMMR": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "MMR": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "aggregate mmr": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "overall mmr": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        }
+			      ]
+			    },
+			    "telco_customer_churn.churn_rate": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "telco_customer_churn",
+			          "ConceptualProperty": "ChurnRate"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "churn rate": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "ChurnRate": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "rate": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "churn degree": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "churn frequency": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "churn percentage": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "churn ratio": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "churn quotient": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "degree": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "frequency": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "ratio": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "quotient": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "churn amount": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        }
+			      ]
+			    },
+			    "telco_customer_churn.lost_MMR": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "telco_customer_churn",
+			          "ConceptualProperty": "Lost_MMR"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "lost MMR": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Lost_MMR": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "MMR": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        }
+			      ]
+			    },
+			    "telco_customer_churn.average_lost_MMR": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "telco_customer_churn",
+			          "ConceptualProperty": "AverageLostMMR"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "average lost MMR": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "AverageLostMMR": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "telco_customer_churn.average_tenure_churned_customers": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "telco_customer_churn",
+			          "ConceptualProperty": "AverageTenureChurnedCustomers"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "average tenure churned customers": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "AverageTenureChurnedCustomers": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "average tenure churned clientele": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.514
+			          }
+			        },
+			        {
+			          "average tenure churned patron": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.514
+			          }
+			        },
+			        {
+			          "average tenure churned client": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.514
+			          }
+			        },
+			        {
+			          "average tenure churned consumer": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.514
+			          }
+			        },
+			        {
+			          "average tenure churned punter": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.514
+			          }
+			        },
+			        {
+			          "average tenure churned regular": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.499
+			          }
+			        },
+			        {
+			          "average tenure churned custom": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.499
+			          }
+			        },
+			        {
+			          "average tenure churned trade": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.499
+			          }
+			        },
+			        {
+			          "average tenure churned business": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.499
+			          }
+			        },
+			        {
+			          "average tenure churned following": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.499
+			          }
+			        }
+			      ]
+			    },
+			    "telco_customer_churn.lifetime": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "telco_customer_churn",
+			          "ConceptualProperty": "Lifetime"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "lifetime": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "era": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "generation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "epoch": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "period": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "lifespan": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        },
+			        {
+			          "duration": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        },
+			        {
+			          "existence": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        },
+			        {
+			          "lifecycle": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        },
+			        {
+			          "life": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.452
+			          }
+			        }
+			      ]
+			    }
+			  },
+			  "Relationships": {
+			    "telco_customer_churn_has_average_tenure_churned_customers": {
+			      "Binding": {
+			        "ConceptualEntity": "telco_customer_churn"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "telco_customer_churn": {
+			          "Target": {
+			            "Entity": "telco_customer_churn"
+			          }
+			        },
+			        "telco_customer_churn.average_tenure_churned_customers": {
+			          "Target": {
+			            "Entity": "telco_customer_churn.average_tenure_churned_customers"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "telco_customer_churn"
+			            },
+			            "Object": {
+			              "Role": "telco_customer_churn.average_tenure_churned_customers"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "telco_customer_churns_have_average_tenure_churned_customers"
+			        }
+			      ]
+			    },
+			    "telco_customer_churn_has_average_lost_MMR": {
+			      "Binding": {
+			        "ConceptualEntity": "telco_customer_churn"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "telco_customer_churn": {
+			          "Target": {
+			            "Entity": "telco_customer_churn"
+			          }
+			        },
+			        "telco_customer_churn.average_lost_MMR": {
+			          "Target": {
+			            "Entity": "telco_customer_churn.average_lost_MMR"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "telco_customer_churn"
+			            },
+			            "Object": {
+			              "Role": "telco_customer_churn.average_lost_MMR"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "telco_customer_churns_have_average_lost_MMR"
+			        }
+			      ]
+			    },
+			    "telco_customer_churn_has_lost_MMR": {
+			      "Binding": {
+			        "ConceptualEntity": "telco_customer_churn"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "telco_customer_churn": {
+			          "Target": {
+			            "Entity": "telco_customer_churn"
+			          }
+			        },
+			        "telco_customer_churn.lost_MMR": {
+			          "Target": {
+			            "Entity": "telco_customer_churn.lost_MMR"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "telco_customer_churn"
+			            },
+			            "Object": {
+			              "Role": "telco_customer_churn.lost_MMR"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "telco_customer_churns_have_lost_MMR"
+			        }
+			      ]
+			    },
+			    "telco_customer_churn_has_churn_rate": {
+			      "Binding": {
+			        "ConceptualEntity": "telco_customer_churn"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "telco_customer_churn": {
+			          "Target": {
+			            "Entity": "telco_customer_churn"
+			          }
+			        },
+			        "telco_customer_churn.churn_rate": {
+			          "Target": {
+			            "Entity": "telco_customer_churn.churn_rate"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "telco_customer_churn"
+			            },
+			            "Object": {
+			              "Role": "telco_customer_churn.churn_rate"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "telco_customer_churns_have_churn_rate"
+			        }
+			      ]
+			    },
+			    "telco_customer_churn_has_total_MMR": {
+			      "Binding": {
+			        "ConceptualEntity": "telco_customer_churn"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "telco_customer_churn": {
+			          "Target": {
+			            "Entity": "telco_customer_churn"
+			          }
+			        },
+			        "telco_customer_churn.total_MMR": {
+			          "Target": {
+			            "Entity": "telco_customer_churn.total_MMR"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "telco_customer_churn"
+			            },
+			            "Object": {
+			              "Role": "telco_customer_churn.total_MMR"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "telco_customer_churns_have_total_MMR"
+			        }
+			      ]
+			    },
+			    "telco_customer_churn_has_churn_customers": {
+			      "Binding": {
+			        "ConceptualEntity": "telco_customer_churn"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "telco_customer_churn": {
+			          "Target": {
+			            "Entity": "telco_customer_churn"
+			          }
+			        },
+			        "telco_customer_churn.churn_customers": {
+			          "Target": {
+			            "Entity": "telco_customer_churn.churn_customers"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "telco_customer_churn"
+			            },
+			            "Object": {
+			              "Role": "telco_customer_churn.churn_customers"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "telco_customer_churns_have_churn_customers"
+			        }
+			      ]
+			    },
+			    "telco_customer_churn_has_active_customers": {
+			      "Binding": {
+			        "ConceptualEntity": "telco_customer_churn"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "telco_customer_churn": {
+			          "Target": {
+			            "Entity": "telco_customer_churn"
+			          }
+			        },
+			        "telco_customer_churn.active_customers": {
+			          "Target": {
+			            "Entity": "telco_customer_churn.active_customers"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "telco_customer_churn"
+			            },
+			            "Object": {
+			              "Role": "telco_customer_churn.active_customers"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "telco_customer_churns_have_active_customers"
+			        }
+			      ]
+			    },
+			    "telco_customer_churn_has_average_monthly_charges": {
+			      "Binding": {
+			        "ConceptualEntity": "telco_customer_churn"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "telco_customer_churn": {
+			          "Target": {
+			            "Entity": "telco_customer_churn"
+			          }
+			        },
+			        "telco_customer_churn.average_monthly_charges": {
+			          "Target": {
+			            "Entity": "telco_customer_churn.average_monthly_charges"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "telco_customer_churn"
+			            },
+			            "Object": {
+			              "Role": "telco_customer_churn.average_monthly_charges"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "telco_customer_churns_have_average_monthly_charges"
+			        }
+			      ]
+			    },
+			    "telco_customer_churn_has_total_charges_sum": {
+			      "Binding": {
+			        "ConceptualEntity": "telco_customer_churn"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "telco_customer_churn": {
+			          "Target": {
+			            "Entity": "telco_customer_churn"
+			          }
+			        },
+			        "telco_customer_churn.total_charges_sum": {
+			          "Target": {
+			            "Entity": "telco_customer_churn.total_charges_sum"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "telco_customer_churn"
+			            },
+			            "Object": {
+			              "Role": "telco_customer_churn.total_charges_sum"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "telco_customer_churns_have_total_charges_sum"
+			        }
+			      ]
+			    },
+			    "telco_customer_churn_has_average_tenure": {
+			      "Binding": {
+			        "ConceptualEntity": "telco_customer_churn"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "telco_customer_churn": {
+			          "Target": {
+			            "Entity": "telco_customer_churn"
+			          }
+			        },
+			        "telco_customer_churn.average_tenure": {
+			          "Target": {
+			            "Entity": "telco_customer_churn.average_tenure"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "telco_customer_churn"
+			            },
+			            "Object": {
+			              "Role": "telco_customer_churn.average_tenure"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "telco_customer_churns_have_average_tenure"
+			        }
+			      ]
+			    },
+			    "telco_customer_churn_has_total_customers": {
+			      "Binding": {
+			        "ConceptualEntity": "telco_customer_churn"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "telco_customer_churn": {
+			          "Target": {
+			            "Entity": "telco_customer_churn"
+			          }
+			        },
+			        "telco_customer_churn.total_customers": {
+			          "Target": {
+			            "Entity": "telco_customer_churn.total_customers"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "telco_customer_churn"
+			            },
+			            "Object": {
+			              "Role": "telco_customer_churn.total_customers"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "telco_customer_churns_have_total_customers"
+			        }
+			      ]
+			    },
+			    "telco_customer_churn_has_churn": {
+			      "Binding": {
+			        "ConceptualEntity": "telco_customer_churn"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "telco_customer_churn": {
+			          "Target": {
+			            "Entity": "telco_customer_churn"
+			          }
+			        },
+			        "telco_customer_churn.churn": {
+			          "Target": {
+			            "Entity": "telco_customer_churn.churn"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "telco_customer_churn"
+			            },
+			            "Object": {
+			              "Role": "telco_customer_churn.churn"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "telco_customer_churns_have_churns"
+			        }
+			      ]
+			    },
+			    "telco_customer_churn_has_total_charge": {
+			      "Binding": {
+			        "ConceptualEntity": "telco_customer_churn"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "telco_customer_churn": {
+			          "Target": {
+			            "Entity": "telco_customer_churn"
+			          }
+			        },
+			        "telco_customer_churn.total_charge": {
+			          "Target": {
+			            "Entity": "telco_customer_churn.total_charge"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "telco_customer_churn"
+			            },
+			            "Object": {
+			              "Role": "telco_customer_churn.total_charge"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "telco_customer_churns_have_total_charges"
+			        }
+			      ]
+			    },
+			    "telco_customer_churn_has_monthly_charge": {
+			      "Binding": {
+			        "ConceptualEntity": "telco_customer_churn"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "telco_customer_churn": {
+			          "Target": {
+			            "Entity": "telco_customer_churn"
+			          }
+			        },
+			        "telco_customer_churn.monthly_charge": {
+			          "Target": {
+			            "Entity": "telco_customer_churn.monthly_charge"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "telco_customer_churn"
+			            },
+			            "Object": {
+			              "Role": "telco_customer_churn.monthly_charge"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "telco_customer_churns_have_monthly_charges"
+			        }
+			      ]
+			    },
+			    "telco_customer_churn_has_payment_method": {
+			      "Binding": {
+			        "ConceptualEntity": "telco_customer_churn"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "telco_customer_churn": {
+			          "Target": {
+			            "Entity": "telco_customer_churn"
+			          }
+			        },
+			        "telco_customer_churn.payment_method": {
+			          "Target": {
+			            "Entity": "telco_customer_churn.payment_method"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "telco_customer_churn"
+			            },
+			            "Object": {
+			              "Role": "telco_customer_churn.payment_method"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "telco_customer_churns_have_payment_methods"
+			        }
+			      ]
+			    },
+			    "telco_customer_churn_has_paperless_billing": {
+			      "Binding": {
+			        "ConceptualEntity": "telco_customer_churn"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "telco_customer_churn": {
+			          "Target": {
+			            "Entity": "telco_customer_churn"
+			          }
+			        },
+			        "telco_customer_churn.paperless_billing": {
+			          "Target": {
+			            "Entity": "telco_customer_churn.paperless_billing"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "telco_customer_churn"
+			            },
+			            "Object": {
+			              "Role": "telco_customer_churn.paperless_billing"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "telco_customer_churns_have_paperless_billing"
+			        }
+			      ]
+			    },
+			    "telco_customer_churn_has_contract": {
+			      "Binding": {
+			        "ConceptualEntity": "telco_customer_churn"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "telco_customer_churn": {
+			          "Target": {
+			            "Entity": "telco_customer_churn"
+			          }
+			        },
+			        "telco_customer_churn.contract": {
+			          "Target": {
+			            "Entity": "telco_customer_churn.contract"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "telco_customer_churn"
+			            },
+			            "Object": {
+			              "Role": "telco_customer_churn.contract"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "telco_customer_churns_have_contracts"
+			        }
+			      ]
+			    },
+			    "telco_customer_churn_has_streaming_movie": {
+			      "Binding": {
+			        "ConceptualEntity": "telco_customer_churn"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "telco_customer_churn": {
+			          "Target": {
+			            "Entity": "telco_customer_churn"
+			          }
+			        },
+			        "telco_customer_churn.streaming_movie": {
+			          "Target": {
+			            "Entity": "telco_customer_churn.streaming_movie"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "telco_customer_churn"
+			            },
+			            "Object": {
+			              "Role": "telco_customer_churn.streaming_movie"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "telco_customer_churns_have_streaming_movies"
+			        }
+			      ]
+			    },
+			    "telco_customer_churn_has_streaming_TV": {
+			      "Binding": {
+			        "ConceptualEntity": "telco_customer_churn"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "telco_customer_churn": {
+			          "Target": {
+			            "Entity": "telco_customer_churn"
+			          }
+			        },
+			        "telco_customer_churn.streaming_TV": {
+			          "Target": {
+			            "Entity": "telco_customer_churn.streaming_TV"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "telco_customer_churn"
+			            },
+			            "Object": {
+			              "Role": "telco_customer_churn.streaming_TV"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "telco_customer_churns_have_streaming_TVs"
+			        }
+			      ]
+			    },
+			    "telco_customer_churn_has_tech_support": {
+			      "Binding": {
+			        "ConceptualEntity": "telco_customer_churn"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "telco_customer_churn": {
+			          "Target": {
+			            "Entity": "telco_customer_churn"
+			          }
+			        },
+			        "telco_customer_churn.tech_support": {
+			          "Target": {
+			            "Entity": "telco_customer_churn.tech_support"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "telco_customer_churn"
+			            },
+			            "Object": {
+			              "Role": "telco_customer_churn.tech_support"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "telco_customer_churns_have_tech_supports"
+			        }
+			      ]
+			    },
+			    "telco_customer_churn_has_device_protection": {
+			      "Binding": {
+			        "ConceptualEntity": "telco_customer_churn"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "telco_customer_churn": {
+			          "Target": {
+			            "Entity": "telco_customer_churn"
+			          }
+			        },
+			        "telco_customer_churn.device_protection": {
+			          "Target": {
+			            "Entity": "telco_customer_churn.device_protection"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "telco_customer_churn"
+			            },
+			            "Object": {
+			              "Role": "telco_customer_churn.device_protection"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "telco_customer_churns_have_device_protections"
+			        }
+			      ]
+			    },
+			    "telco_customer_churn_has_online_backup": {
+			      "Binding": {
+			        "ConceptualEntity": "telco_customer_churn"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "telco_customer_churn": {
+			          "Target": {
+			            "Entity": "telco_customer_churn"
+			          }
+			        },
+			        "telco_customer_churn.online_backup": {
+			          "Target": {
+			            "Entity": "telco_customer_churn.online_backup"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "telco_customer_churn"
+			            },
+			            "Object": {
+			              "Role": "telco_customer_churn.online_backup"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "telco_customer_churns_have_online_backups"
+			        }
+			      ]
+			    },
+			    "telco_customer_churn_has_online_security": {
+			      "Binding": {
+			        "ConceptualEntity": "telco_customer_churn"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "telco_customer_churn": {
+			          "Target": {
+			            "Entity": "telco_customer_churn"
+			          }
+			        },
+			        "telco_customer_churn.online_security": {
+			          "Target": {
+			            "Entity": "telco_customer_churn.online_security"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "telco_customer_churn"
+			            },
+			            "Object": {
+			              "Role": "telco_customer_churn.online_security"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "telco_customer_churns_have_online_securities"
+			        }
+			      ]
+			    },
+			    "telco_customer_churn_has_internet_service": {
+			      "Binding": {
+			        "ConceptualEntity": "telco_customer_churn"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "telco_customer_churn": {
+			          "Target": {
+			            "Entity": "telco_customer_churn"
+			          }
+			        },
+			        "telco_customer_churn.internet_service": {
+			          "Target": {
+			            "Entity": "telco_customer_churn.internet_service"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "telco_customer_churn"
+			            },
+			            "Object": {
+			              "Role": "telco_customer_churn.internet_service"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "telco_customer_churns_have_internet_services"
+			        }
+			      ]
+			    },
+			    "telco_customer_churn_has_multiple_line": {
+			      "Binding": {
+			        "ConceptualEntity": "telco_customer_churn"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "telco_customer_churn": {
+			          "Target": {
+			            "Entity": "telco_customer_churn"
+			          }
+			        },
+			        "telco_customer_churn.multiple_line": {
+			          "Target": {
+			            "Entity": "telco_customer_churn.multiple_line"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "telco_customer_churn"
+			            },
+			            "Object": {
+			              "Role": "telco_customer_churn.multiple_line"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "telco_customer_churns_have_multiple_lines"
+			        }
+			      ]
+			    },
+			    "telco_customer_churn_has_phone_service": {
+			      "Binding": {
+			        "ConceptualEntity": "telco_customer_churn"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "telco_customer_churn": {
+			          "Target": {
+			            "Entity": "telco_customer_churn"
+			          }
+			        },
+			        "telco_customer_churn.phone_service": {
+			          "Target": {
+			            "Entity": "telco_customer_churn.phone_service"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "telco_customer_churn"
+			            },
+			            "Object": {
+			              "Role": "telco_customer_churn.phone_service"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "telco_customer_churns_have_phone_services"
+			        }
+			      ]
+			    },
+			    "telco_customer_churn_has_tenure": {
+			      "Binding": {
+			        "ConceptualEntity": "telco_customer_churn"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "telco_customer_churn": {
+			          "Target": {
+			            "Entity": "telco_customer_churn"
+			          }
+			        },
+			        "telco_customer_churn.tenure": {
+			          "Target": {
+			            "Entity": "telco_customer_churn.tenure"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "telco_customer_churn"
+			            },
+			            "Object": {
+			              "Role": "telco_customer_churn.tenure"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "telco_customer_churns_have_tenures"
+			        }
+			      ]
+			    },
+			    "telco_customer_churn_has_dependent": {
+			      "Binding": {
+			        "ConceptualEntity": "telco_customer_churn"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "telco_customer_churn": {
+			          "Target": {
+			            "Entity": "telco_customer_churn"
+			          }
+			        },
+			        "telco_customer_churn.dependent": {
+			          "Target": {
+			            "Entity": "telco_customer_churn.dependent"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "telco_customer_churn"
+			            },
+			            "Object": {
+			              "Role": "telco_customer_churn.dependent"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "telco_customer_churns_have_dependents"
+			        }
+			      ]
+			    },
+			    "telco_customer_churn_has_partner": {
+			      "Binding": {
+			        "ConceptualEntity": "telco_customer_churn"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "telco_customer_churn": {
+			          "Target": {
+			            "Entity": "telco_customer_churn"
+			          }
+			        },
+			        "telco_customer_churn.partner": {
+			          "Target": {
+			            "Entity": "telco_customer_churn.partner"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "telco_customer_churn"
+			            },
+			            "Object": {
+			              "Role": "telco_customer_churn.partner"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "telco_customer_churns_have_partners"
+			        }
+			      ]
+			    },
+			    "telco_customer_churn_has_senior_citizen": {
+			      "Binding": {
+			        "ConceptualEntity": "telco_customer_churn"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "telco_customer_churn": {
+			          "Target": {
+			            "Entity": "telco_customer_churn"
+			          }
+			        },
+			        "telco_customer_churn.senior_citizen": {
+			          "Target": {
+			            "Entity": "telco_customer_churn.senior_citizen"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "telco_customer_churn"
+			            },
+			            "Object": {
+			              "Role": "telco_customer_churn.senior_citizen"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "telco_customer_churns_have_senior_citizens"
+			        }
+			      ]
+			    },
+			    "telco_customer_churn_has_gender": {
+			      "Binding": {
+			        "ConceptualEntity": "telco_customer_churn"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "telco_customer_churn": {
+			          "Target": {
+			            "Entity": "telco_customer_churn"
+			          }
+			        },
+			        "telco_customer_churn.gender": {
+			          "Target": {
+			            "Entity": "telco_customer_churn.gender"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "telco_customer_churn"
+			            },
+			            "Object": {
+			              "Role": "telco_customer_churn.gender"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "telco_customer_churns_have_genders"
+			        }
+			      ]
+			    },
+			    "telco_customer_churn_has_customer_ID": {
+			      "Binding": {
+			        "ConceptualEntity": "telco_customer_churn"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "telco_customer_churn": {
+			          "Target": {
+			            "Entity": "telco_customer_churn"
+			          }
+			        },
+			        "telco_customer_churn.customer_ID": {
+			          "Target": {
+			            "Entity": "telco_customer_churn.customer_ID"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "telco_customer_churn"
+			            },
+			            "Object": {
+			              "Role": "telco_customer_churn.customer_ID"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "telco_customer_churns_have_customer_ID"
+			        }
+			      ]
+			    },
+			    "telco_customer_churn_has_lifetime": {
+			      "Binding": {
+			        "ConceptualEntity": "telco_customer_churn"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "telco_customer_churn": {
+			          "Target": {
+			            "Entity": "telco_customer_churn"
+			          }
+			        },
+			        "telco_customer_churn.lifetime": {
+			          "Target": {
+			            "Entity": "telco_customer_churn.lifetime"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "telco_customer_churn"
+			            },
+			            "Object": {
+			              "Role": "telco_customer_churn.lifetime"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "telco_customer_churns_have_lifetimes"
+			        }
+			      ]
+			    }
+			  },
+			  "Agents": {
+			    "Internal": {
+			      "Version": "1.1.0"
+			    }
+			  }
+			}
+		contentType: json
+
