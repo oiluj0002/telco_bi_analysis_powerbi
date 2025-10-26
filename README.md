@@ -34,3 +34,18 @@ The analysis revealed several critical factors that strongly correlate with cust
 3.  **Internet Service Matters:** Customers with **Fiber Optic internet service exhibit a significantly higher churn rate (41.9%)** compared to those with DSL (19%). This may indicate service stability issues, pricing dissatisfaction, or stronger competition in areas with fiber coverage.
 
 4.  **Billing Methods Signal Risk:** Customers using **Paperless Billing** and paying via **Electronic Check** are more likely to churn. This could signal friction in the payment process or a less "sticky," more transactional customer relationship.
+
+## 🔧 Project Versioning with .pbip
+
+This project is saved using the **Power BI Project (`.pbip`)** format rather than the standard `.pbix` file. This approach is essential for effective version control with Git and GitHub.
+
+The `.pbip` format stores the project as a folder containing human-readable, text-based files, most importantly:
+
+* **`Report.json`**: Defines all report pages, visuals, and layouts.
+* **`Model.bim`**: A JSON-based file (Tabular Model Scripting Language) that defines the data model, tables, relationships, and all DAX measures.
+
+**Key Advantages of this format:**
+* **Granular Change Tracking:** Git can track the exact changes made to the data model (like a modified DAX measure in `Model.bim`) or the report (like a moved visual in `Report.json`).
+* **Meaningful Diffs:** We can see clear "diffs" between commits, making it possible to review changes and understand the project's history.
+* **Collaboration:** This text-based structure is "Git-friendly" and significantly reduces issues with merge conflicts, allowing for better team collaboration.
+* **Clean Repository:** A `.gitignore` file is used to exclude user-specific local settings (like `.pbi/localSettings.json`), keeping the repository focused only on the core project files.
